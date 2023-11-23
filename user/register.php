@@ -3,7 +3,7 @@ require_once "../components/db_connection.php";
 require_once "../components/navbar.php";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -58,7 +58,9 @@ require_once "../components/navbar.php";
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
+        <button type="submit" class="btn btn-light">Submit</button>
+        <small class="text-secondary ms-4">Already have an account? <a class="link-light" href="login.php">Log in here</a></span>
+
     </form>
   </div>
 

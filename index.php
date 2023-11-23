@@ -3,7 +3,7 @@ require_once "components/db_connection.php";
 require_once "components/navbar.php";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -32,10 +32,10 @@ require_once "components/navbar.php";
           </ul>
           <div class='card-body d-flex justify-content-between'>
             <div class='btn-group btn-group-sm' role='group' aria-label='Basic mixed styles example'>
-              <a class='btn btn-dark'>Details</a>
-              <a href='product/update.php' class='btn btn-outline-dark'>Edit</a>
+              <a href='product/details.php' class='btn btn-light'>Details</a>
+              <a href='product/update.php' class='btn btn-outline-light'>Edit</a>
             </div>
-            <a class='btn btn-sm btn-outline-danger'>Delete</a>
+            <a href='product/delete.php' class='btn btn-sm btn-outline-danger'>Delete</a>
           </div>
         </div>
       </div>

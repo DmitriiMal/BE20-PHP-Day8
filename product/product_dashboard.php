@@ -3,7 +3,7 @@ require_once "../components/db_connection.php";
 require_once "../components/navbar.php";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -37,10 +37,10 @@ require_once "../components/navbar.php";
           <td>@mdo</td>
           <td>
             <div class='btn-group btn-group-sm me-4' role='group' aria-label='Basic mixed styles example'>
-              <button type='button' class='btn btn-dark'>Details</button>
-              <button type='button' class='btn btn-outline-dark'>Edit</button>
+              <a href='../product/details.php' class='btn btn-light'>Details</a>
+              <a href='../product/update.php' class='btn btn-outline-light'>Edit</a>
             </div>
-            <button type='button' class='btn btn-sm btn-outline-danger'>Delete</button>
+            <a href='../product/delete.php' class='btn btn-sm btn-outline-danger'>Delete</a>
           </td>
         </tr>
       </tbody>

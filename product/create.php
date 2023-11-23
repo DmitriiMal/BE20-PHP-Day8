@@ -3,7 +3,7 @@ require_once "../components/db_connection.php";
 require_once "../components/navbar.php";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 
 <head>
@@ -47,7 +47,7 @@ require_once "../components/navbar.php";
         <input type="file" class="form-control" id="picture" name="picture" placeholder="picture">
         <label for="picture">Picture</label>
       </div>
-      <button type="submit" class="btn btn-dark">Submit</button>
+      <button type="submit" class="btn btn-light">Submit</button>
     </form>
 
   </div>
