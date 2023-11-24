@@ -1,8 +1,8 @@
-.my-card {
+/* .my-card {
   min-height: 400px;
-}
+} */
 
 .my-card img {
   aspect-ratio: 5/4;
-  object-fit: cover;
+  /* object-fit: cover; */
 }

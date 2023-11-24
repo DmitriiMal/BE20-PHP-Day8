@@ -19,8 +19,8 @@ require_once "components/navbar.php";
   <div class="container my-5">
     <div class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
       <div>
-        <div class='card my-card'>
-          <img src='https://images.unsplash.com/photo-1531762834015-57aa765c6047?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvcnJlc3R8ZW58MHx8MHx8fDA%3D' class='card-img-top' alt='...'>
+        <div class='card my-card' style="min-height: 30rem;">
+          <img src='https://images.unsplash.com/photo-1531762834015-57aa765c6047?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvcnJlc3R8ZW58MHx8MHx8fDA%3D' class='card-img-top object-fit-cover' alt='...'>
           <div class='card-body'>
             <h5 class='card-title'>Card title</h5>
             <p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
